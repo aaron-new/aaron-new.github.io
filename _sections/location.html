@@ -1,5 +1,5 @@
 ---
-title: location
+title: Location
 icon: fa-user
 order: 4
 ---
@@ -12,3 +12,14 @@ laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
 parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
 dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
 ornare iaculis.</p>
+<div id="map" style="width:500px;height:400px;"></div>
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9d41d1f23d763e7b0085d5582fae8df7"></script>
+	<script>
+		var container = document.getElementById('map');
+		var options = {
+			center: new kakao.maps.LatLng(33.450701, 126.570667),
+			level: 3
+		};
+
+		var map = new kakao.maps.Map(container, options);
+	</script>
