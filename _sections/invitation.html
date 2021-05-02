@@ -14,5 +14,30 @@ order: 2
 </pre>
 
 <p style="font-size:80%">마음 전하실 곳</p>
-<a href="#seungmin"><span class ="icon fa-envelope" style="color:black;background-color:#F2F2F2;opacity: 0.5;font-size:70%" > 신랑 측 확인하기</span><br></a>
-<a href="#yeonju"><span class ="icon fa-envelope" style="color:black;background-color:#F2F2F2;opacity: 0.5;font-size:70%" > 신부 측 확인하기</span></a>
+<span class ="icon fa-envelope" onclick="invitationClickSFunction()" style="color:black;background-color:#F2F2F2;opacity: 0.5;font-size:70%" > 신랑 측 확인하기</span><br>
+<div id="seungmin" style="display=none;"></div>
+<span class ="icon fa-envelope" style="color:black;background-color:#F2F2F2;opacity: 0.5;font-size:70%" > 신부 측 확인하기</span>
+<div id="yeonju" style="display=none;"></div>
+
+<script>
+function invitationClickSFunction() {
+  var x = document.getElementById("seungmin");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+	
+
+<script>
+function invitationClickYFunction() {
+  var x = document.getElementById("yeonju");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
