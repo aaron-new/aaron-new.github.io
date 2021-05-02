@@ -32,7 +32,7 @@
 # in the templates via {{ site.myvariable }}.
 title: 2021/6/12 14:00
 subtitle: 피에스타 귀족 강남 / 2층 피에스타홀
-avatar: assets/images/desc_image.jpeg
+avatar: assets/images/desc_image2.jpeg
 description: >- # this means to ignore newlines until "baseurl:"
 author: Your Incredible Name
 email: your-email@example.com
