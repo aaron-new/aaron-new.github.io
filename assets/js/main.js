@@ -4,14 +4,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-<script type="text/javascript">
-    function changeScreenSize() {        
-        window.resizeTo(screen.width-300,screen.height-500)   
-    }
-</script>
-
-<body onload="changeScreenSize()">
-
 (function($) {
 
 	skel.breakpoints({
@@ -32,6 +24,7 @@
 
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
+				$window.resizeTo(window.screen.availWidth, 500px)
 			});
 
 		// CSS polyfills (IE<9).
