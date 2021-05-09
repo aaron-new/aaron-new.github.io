@@ -4,6 +4,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+window.resizeTo(500px, window.screen.height); 
+
 (function($) {
 
 	skel.breakpoints({
@@ -24,7 +26,6 @@
 
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
-				$window.resizeTo(window.screen.availWidth, 500px)
 			});
 
 		// CSS polyfills (IE<9).
