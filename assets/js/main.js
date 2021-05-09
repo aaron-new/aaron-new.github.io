@@ -4,6 +4,14 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+<script type="text/javascript">
+    function changeScreenSize() {        
+        window.resizeTo(screen.width-300,screen.height-500)   
+    }
+</script>
+
+<body onload="changeScreenSize()">
+
 (function($) {
 
 	skel.breakpoints({
